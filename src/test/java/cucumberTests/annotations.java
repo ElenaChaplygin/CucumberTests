@@ -23,7 +23,7 @@ public class annotations {
 		driver.navigate().to("https://www.facebook.com/"); 
 	   } 
 		
-	@Then("^Login button should exits$") 
+	@Then("^Login button should exist$") 
 	   public void loginButton() { 
 	      if(driver.findElement(By.id("u_0_v")).isEnabled()) { 
 	         System.out.println("Test 1 Pass"); 
